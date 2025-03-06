@@ -1,0 +1,29 @@
+.background {
+    z-index: -20;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150vw;
+    transform: translateX(-50%);
+
+    img {
+        width: 100%;
+    }
+
+}
+
+/* Media Queries */
+
+@media (width >=810px) {
+    .background {
+        width: 120vw;
+        /* Tablet */
+    }
+}
+
+@media (width > 1232px) {
+    .background {
+        width: 100vw;
+        /* Desktop */
+    }
+}
