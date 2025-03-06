@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('/src/assets/fonts/Montserrat.ttf');
+}
+
+:root {
+    --white: rgba(250, 250, 250, 1);
+    --main-font-color: var(--white);
+    --main-font-family: "Montserrat", sans-serif;
+    --main-font-size: 8px;
+    --main-font-weight: 500;
+
+    --title-font-family: var(--main-font-family);
+    --title-font-wheight: 900;
+
+    --onglet-menu-font-size: 1.5em;
+    --onglet-menu-font-wheight: var(--title-font-wheight);
+    --menu-background-color: rgba(15, 30, 35, 0.8);
+
+    --blue-shadow-color: 40, 187, 194;
+    --blue-shadow-color-fullrange: rgba(var(--blue-shadow-color), 0.7);
+    --blue-shadow-color-midrange: rgba(var(--blue-shadow-color), 0.35);
+
+    --purple-shadow-color: 189, 0, 255;
+    --purple-box-shadow: 0 0 8px var(--white),
+        inset 0 0 8px var(--white),
+        0 0 16px rgb(var(--purple-shadow-color)),
+        inset 0 0 16px rgb(var(--purple-shadow-color)),
+        0 0 32px rgb(var(--purple-shadow-color)),
+        inset 0 0 32px rgb(var(--purple-shadow-color));
+    --purple-box-border: 0.1em solid var(--white);
+
+    --bouton-menu-classique-color: var(--white);
+    --bouton-menu-classique-shadow: 0 0 0.2em 0.1em var(--blue-shadow-color-fullrange);
+    --bouton-menu-classique-shadow-midrange: 0 0 0.2em 0.1em var(--blue-shadow-color-midrange);
+
+    --bouton-box-shadow: 0 0 0.25em rgba(var(--blue-shadow-color), 1),
+        0 0 1.2em rgba(var(--blue-shadow-color), 1),
+        0 0 2em rgba(var(--blue-shadow-color), 1),
+        0 0 4em rgba(var(--blue-shadow-color), 1);
+
+    --animation-parametre: 2s infinite alternate;
+}
+
+body {
+    color: var(--main-font-color);
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight);
+    letter-spacing: 0.2em;
+    font-size: var(--main-font-size);
+    overflow: hidden;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    gap: 6em;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-wheight);
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+/* suppression du style par défaut */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 2em;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+
+p {
+    text-indent: 1.5em;
+}
+
+strong {
+    font-weight: var(--title-font-wheight);
+    font-size: 1.1em;
+}
+
+/* style standard pour composants */
+.flex-row,
+.flex-row-responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column,
+.flex-column-responsive {
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.center-top {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.start {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.end {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-between-top {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.space-around {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.texte-centre {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#footer {
+    display: none;
+}
+
+
+/* Media Queries */
+
+@media (width >=810px) {
+    body {
+        font-size: calc(var(--main-font-size) + 6px);
+        /* Tablet */
+    }
+
+    #footer {
+        display: flex;
+    }
+
+    #footer-mobile {
+        display: none;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2.3em;
+    }
+}
+
+@media (width > 1232px) {
+    body {
+        font-size: calc(var(--main-font-size) + 12px);
+        /* Desktop */
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+/* Animations */
+/* Clignotement néon */
+@keyframes flicker {
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        box-shadow: var(--purple-box-shadow);
+
+    }
+
+    20%,
+    24%,
+    55% {
+        box-shadow: none;
+    }
+}
+
+@keyframes change-border-color {
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        border-color: var(--white);
+    }
+
+    20%,
+    24%,
+    55% {
+        border-color: rgba(10, 10, 10, 1);
+    }
+}

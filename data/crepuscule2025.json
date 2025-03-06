@@ -1,0 +1,292 @@
+{
+    "crepuscule": {
+        "titre": "Crepuscule Music Festival",
+        "path": "/crepuscule/",
+        "vue": "Crepuscule.js",
+        "module": "Crepuscule",
+        "titreh2": "Entrez dans l’irréel !",
+        "texte": "Le <strong>CRÉPUSCULE Music Festival</strong> offre <strong>une expérience visuelle et musicale unique</strong> à la frontière de l’imaginaire.</br></br> Embarquez dans <strong>un show mêlant musique électronique, images et lumières transcendantes</strong> qui ne laisseront personnes indifférentes.",
+        "bouton": "En savoir Plus",
+        "page": {
+            "titreh1": "Le crepuscule music festival",
+            "paragraphe1": {
+                "titreh2": "Le concept",
+                "paragraphe": "Nouvel acteur de la scène électro en France, <strong>le CRÉPUSCULE Music Festival célèbre la diversité artistique</strong> tout en soutenant les talents émergents. L'objectif de ce festival est de rassembler les amateurs de musique électronique dans une atmosphère vibrante et festive, tout en promouvant la scène musicale indépendante."
+            },
+            "paragraphe2": {
+                "titreh2": "Un engagement musical",
+                "paragraphe": "Le <strong>CRÉPUSCULE Music Festival</strong> met avant <strong>des artistes reconnus</strong> dans l’univers de la musique électronique, tout en soutenant des <strong>artistes émergeants</strong> de la scène locale albigeoise. Cette volonté de célébrer la diversité artistique est un des piliers du festival."
+            },
+            "paragraphe3": {
+                "titreh2": "Une expérience visuelle unique",
+                "paragraphe": "Le festival se démarque en proposant <strong>un véritable show son et lumière</strong> transcendant. En s’appuyant sur des experts dans le domaine des expériences immersives, le <strong>CRÉPUSCULE Music Festival</strong> se vit aussi bien avec les yeux qu’avec les oreilles."
+            },
+            "paragraphe4": {
+                "titreh2": "L’origine du festival",
+                "paragraphe": "Ce festival est propulsé par l’association <strong>DRAC Events</strong>, dédiée à la promotion de la musique électronique. Organisatrice de plusieurs événements autour de la musique électronique à Albi, l’association souhaite <strong>apporter son soutien aux jeunes artistes émergeants de la région</strong> qui œuvrent pour la musique électronique, et leur permettre de se produire aux côtés d’artistes confirmés."
+            }
+        }
+    },
+    "billetterie": {
+        "titre": "Billetterie",
+        "path": "/billetterie/",
+        "vue": "Billetterie.js",
+        "module": "Billetterie",
+        "designation": "PASS CREPUSCULE MUSIC FESTIVAL",
+        "prix": "38€",
+        "bouton": "Acheter un billet"
+    },
+    "programmation": {
+        "titre": "Programmation",
+        "path": "/programmation/",
+        "vue": "Programmation.js",
+        "module": "Programmation",
+        "artistes": [
+            {
+                "artist": "Artiste 1",
+                "social": "",
+                "time": "22:00",
+                "img": "artefact1",
+                "artefact": "cube",
+                "couleur": "red"
+            },
+            {
+                "artist": "Artiste 2",
+                "social": "",
+                "time": "23:00",
+                "img": "artefact2",
+                "artefact": "sphere",
+                "couleur": "green"
+            },
+            {
+                "artist": "Artiste 3",
+                "social": "",
+                "time": "21:00",
+                "img": "artefact3",
+                "artefact": "dodecaedre",
+                "couleur": "blue"
+            },
+            {
+                "artist": "Artiste 4",
+                "social": "",
+                "time": "22:00",
+                "img": "artefact4",
+                "artefact": "pyramide",
+                "couleur": "yellow"
+            }
+        ]
+    },
+    "partenaires": {
+        "titre": "Partenaires",
+        "path": "/partenaires/",
+        "vue": "Partenaires.js",
+        "module": "Partenaires",
+        "liste": {
+            "0": {
+                "nom": "81e",
+                "site": "",
+                "logo": "81e.svg"
+            },
+            "1": {
+                "nom": "Le Chien Rouge",
+                "site": "",
+                "logo": "le_chien_rouge.svg"
+            },
+            "2": {
+                "nom": "Crédit Agricole",
+                "site": "",
+                "logo": "credit_agricole.svg"
+            },
+            "3": {
+                "nom": "Département du Tarn",
+                "site": "",
+                "logo": "departement_tarn.svg"
+            },
+            "4": {
+                "nom": "Drac Event",
+                "site": "",
+                "logo": "drac_event.svg"
+            },
+            "5": {
+                "nom": "Dream",
+                "site": "",
+                "logo": "dream.svg"
+            },
+            "6": {
+                "nom": "Le Coupeur",
+                "site": "",
+                "logo": "le_coupeur.svg"
+            },
+            "7": {
+                "nom": "Romain Gayraud",
+                "site": "",
+                "logo": "romain_gayraud.svg"
+            },
+            "8": {
+                "nom": "Sorep",
+                "site": "",
+                "logo": "sorep.svg"
+            },
+            "9": {
+                "nom": "Ville d'Albi",
+                "site": "",
+                "logo": "ville_albi.svg"
+            }
+        }
+    },
+    "info": {
+        "titre": "Infos Pratiques",
+        "path": "/infos-pratiques/",
+        "vue": "Info.js",
+        "module": "Info",
+        "festival": "Crepuscule Music Festival",
+        "lieux": "Salle de Pratgraussal",
+        "rue": "Rue de Lamothe",
+        "CP": "81000",
+        "ville": "Albi",
+        "google_map": "https://www.google.fr/maps/place/Salle+%C3%A9v%C3%A9nementielle+de+Pratgraussals+-+Ville+d%E2%80%99Albi/@43.9294898,2.1326514,1576m/data=!3m2!1e3!4b1!4m6!3m5!1s0x12adc2b1e1f96dc1:0xcb42ef39d18f82b7!8m2!3d43.929486!4d2.1352263!16s%2Fg%2F11b75j7djr?entry=ttu&g_ep=EgoyMDI0MTAyMi4wIKXMDSoASAFQAw%3D%3D",
+        "dates": "08 mars 2025",
+        "page": {
+            "paragraphe1": {
+                "titreh2": "horaires",
+                "faq": {
+                    "question1": {
+                        "question": "Ouverture et fermeture du festival",
+                        "reponse": "Information à venir!"
+                    },
+                    "question2": {
+                        "question": "Timetable du samedi 8 mars",
+                        "reponse": "Information à venir!"
+                    }
+                }
+            },
+            "paragraphe2": {
+                "titreh2": "billetterie",
+                "faq": {
+                    "question1": {
+                        "question": "Où acheter mes billets?",
+                        "reponse": "Sur la billetterie officielle de l’événement:"
+                    },
+                    "question2": {
+                        "question": "Festivaliers en situation de handicap",
+                        "reponse": "Achat des places : Prendre contact <a href='mailto:shop@bleucitron.net'>shop@bleucitron.net</a> pour procéder à l’achat de la place"
+                    },
+                    "question3": {
+                        "question": "Réception des billets",
+                        "reponse": "Une fois votre achat finalisé, vous recevrez par mail une confirmation de commande"
+                    },
+                    "question4": {
+                        "question": "Problème avec ma commande",
+                        "reponse": "Merci d’adresser un mail avec votre réclamation à <a href='mailto:contact@drac-events.fr'>contact@drac-events.fr</a>"
+                    },
+                    "question5": {
+                        "question": "Revente de billets",
+                        "reponse": "Ne publiez pas le code-barres ou le numéro de votre billet sur les réseaux sociaux afin de réduire le risque de contrefaçon. N’achetez pas vos billets auprès d’un inconnu ou sur des sites de revente non autorisés (Facebook, Snapchat, Leboncoin…), vous risqueriez de ne pas pouvoir accéder au festival."
+                    },
+                    "question6": {
+                        "question": "Accès enfants/ados",
+                        "reponse": "L’accès au festival est interdit au moins de 18 ans non accompagnés."
+                    },
+                    "question7": {
+                        "question": "Annulation - Échange - Remboursement",
+                        "reponse": "<p>Conformément à l’article L.221-28 du Code de la Consommation, les Billets ne font pas l’objet d’un droit de rétractation dès lors que la commande est exécutée par l’envoi du mail de confirmation. Un Billet ne peut être remboursé même en cas de perte, de vol ou de maladie, ni repris, ni échangé sauf en cas d’annulation de l’Événement. En cas d’annulation de l’Événement, seul le prix du Billet sera remboursé (les frais de location et d’émission restant à la charge définitive du Client). Ce remboursement n’interviendra qu’en faveur de l’acquéreur initial contre remise du Billet.</p><br><p>Un artiste a annulé sa présence au festival : En cas d’annulation d’un artiste, qui n’est pas imputable à l’Organisation du Festival, aucun remboursement et aucun échange ne seront proposés. Les billets ne sont ni repris, ni échangés sauf en cas de report ou d’annulation du festival dans sa totalité. En effet, en cas d’annulation d’un ou plusieurs artistes en deçà de la moitié du programme, les organisateurs ne sont pas obligés contractuellement de procéder à un échange ou remboursement.<br>En cas d’annulation totale du programme, l’organisateur s’engage alors à rembourser le client.</p>"
+                    },
+                    "question8": {
+                        "question": "Jeux concours",
+                        "reponse": "D’après la loi n° 64-1360 du 31 décembre 1964, l’exploitation de la marque <strong>CRÉPUSCULE Music Festival</strong>, visant à faire gagner ces places sans l’accord de l’organisation, est strictement interdite. Cette réglementation implique toutes formes de jeux type concours, tombola, loterie ou autre dispositif équivalant."
+                    }
+                }
+            }
+        }
+    },
+    "engagements": {
+        "titre": "Nos Engagements",
+        "path": "/engagements/",
+        "vue": "Engagements.js",
+        "module": "Engagements",
+        "page": {
+            "titreh1": "Nos Engagements",
+            "epilogue": "Sensible aux défis sociétaux et environnementaux contemporains, l’équipe du <strong>CRÉPUSCULE Music Festival</strong> a, dès sa création, entrepris une réflexion visant à devenir un acteur du changement. Nous nous engageons à gérer les impacts du festival tout en l'inscrivant dans une dynamique de transition écologique et sociale. Grâce à cette volonté et à l'implication de nos équipes, cette édition du CMF se veut responsable et engagée, en s'inscrivant dans un processus d'amélioration continue.",
+            "paragraphes": {
+                "paragraphe1": {
+                    "titreh2": "Accessibilité",
+                    "liste1": {
+                        "titreh3": "Mobilité",
+                        "ligne1": "Accès au festival via transports en commun?",
+                        "ligne2": "Présence d’un parking PMR?"
+                    },
+                    "liste2": {
+                        "titreh3": "Accueil",
+                        "ligne1": "Bénévoles formés pour l’accueil de personnes en situation de handicap?",
+                        "ligne2": "Point info handi-accueil?"
+                    },
+                    "liste3": {
+                        "titreh3": "Site",
+                        "ligne1": "terrain accessible aux personnes à mobilité réduite",
+                        "ligne2": "sanitaires adaptés",
+                        "ligne3": "files prioritaires à l’entrée du festival (à droite) et au niveau des bars",
+                        "ligne4": "plateforme surélevée, sécurisée et accessible à tout moment aux personnes à besoins spécifiques"
+                    },
+                    "liste4": {
+                        "titreh3": "L’accès à la plateforme est possible pour :",
+                        "ligne1": "les personnes en situation de handicap (justificatif CMI)",
+                        "ligne2": "les personnes avec une mobilité réduite temporaire (déplacement avec  béquilles, station debout difficile…). Présentation d’un justificatif médical si possible",
+                        "ligne3": "les femmes enceintes (dans la limite des places disponibles)",
+                        "ligne4": "un accompagnant par personne (dans la limite des places disponibles)"
+                    }
+                },
+                "paragraphe2": {
+                    "titreh2": "Prévention",
+                    "paragraphe": "La prévention des risques festifs fait partie intégrante des engagements du <strong>CRÉPUSCULE Music Festival</strong> qui entend sensibiliser ses festivalier.es et prévenir les risques liés à l’environnement festif : écoute de musique amplifiée, alcool, drogue…",
+                    "liste1": {
+                        "titreh3": "Quelques rappels:",
+                        "ligne1": "protège tes oreilles",
+                        "ligne2": "fais des pauses",
+                        "ligne3": "bois de l’eau",
+                        "ligne4": "conduis sobre",
+                        "ligne5": "respecte les lieux",
+                        "ligne6": "respecte les autres festivalier.es",
+                        "ligne7": "aucune violence ne sera tolérée sur le festival : racisme, sexisme, LGBTIphobie…"
+                    }
+                },
+                "paragraphe3": {
+                    "titreh2": "ÉCO-RESPONSABILITÉ",
+                    "paragraphe": "Le CREPUSCULE Music Festival s’engage pour réduire son impact environnemental à travers des actions concrètes :",
+                    "liste1": {
+                        "ligne1": "Restriction du plastique à usage unique : gobelets réutilisables, foodtrucks…",
+                        "ligne2": "Tri sélectif et revalorisation des déchets",
+                        "ligne3": "Engagement plat végétarien",
+                        "ligne4": "Restriction de l’usage du verre"
+                    }
+                }
+            }
+        }
+    },
+    "drac": {
+        "titre": "Drac Events",
+        "path": "/dracevents/",
+        "vue": "Drac.js",
+        "module": "Drac"
+    },
+    "contact": {
+        "titre": "Contact",
+        "path": "/contact/",
+        "vue": "Contact.js",
+        "module": "Contact",
+        "facebook": "https://www.facebook.com/profile.php?id=100092378724145",
+        "instagram": "https://www.instagram.com/drac_events/",
+        "email": "crepuscule@drac-events.com",
+        "web": "https://www.drac-events.fr/"
+    },
+    "accueil": {
+        "titre": "Retour à l'accueil",
+        "path": "/",
+        "vue": "Accueil.js",
+        "module": "Accueil"
+    },
+    "footer": {
+        "reseauh2": "Suivez-nous!",
+        "contacth2": "Contact",
+        "accesh2": "Accéder au festival"
+    }
+}
