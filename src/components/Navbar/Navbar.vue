@@ -1,8 +1,8 @@
 <script setup>
-    import { ref, onMounted } from 'vue';
+    import { ref } from 'vue';
     import BoutonMenu from '../BoutonMenu/BoutonMenu.vue';
     import OngletMenu from '../OngletMenu/OngletMenu.vue';
-    import './Menu.css'
+    import './Navbar.css'
 
     const menuElement = ref(null)
 

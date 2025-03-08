@@ -1,0 +1,28 @@
+#banniere {
+    width: 100vw;
+    gap: 3em;
+}
+
+#logo-banniere {
+    width: 85%;
+    z-index: 3;
+    margin-top: 10em;
+    margin-bottom: 4em;
+}
+
+#date-lieu-banniere {
+    font-size: 2em;
+    font-weight: var(--title-font-wheight);
+    z-index: 3;
+}
+
+@media (width >=810px) {
+
+    #banniere {
+        gap: 4em;
+    }
+
+    #date-lieu-banniere {
+        font-size: 3em;
+    }
+}

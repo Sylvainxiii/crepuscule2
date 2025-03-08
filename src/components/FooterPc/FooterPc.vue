@@ -2,7 +2,7 @@
     import { contact, footer, info } from '/data/crepuscule2025.json'
     import logoFacebook from "/src/assets/images/facebook-f.svg";
     import logoInstagram from "/src/assets/images/instagram.svg";
-    import './Footer.css'
+    import './FooterPc.css'
 
     const linkFacebook = contact.facebook;
     const linkInstagram = contact.instagram;

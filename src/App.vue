@@ -1,16 +1,18 @@
 <script setup>
   import Background from './components/Background/Background.vue';
-  import Menu from './components/Menu/Menu.vue';
-  import Footer from './components/Footer/Footer.vue';
+  import Navbar from './components/Navbar/Navbar.vue';
+  import FooterPc from './components/FooterPc/FooterPc.vue';
   import FooterMobile from './components/FooterMobile/FooterMobile.vue';
+  import Accueil from './vues/Accueil.vue';
 </script>
 
 <template>
     <Background />
-    <Menu />
-    <div id = 'foreground'>
+    <Navbar />
+    <div id = 'vue'>
+      <Accueil />
     </div>
-    <Footer />
+    <FooterPc />
     <FooterMobile />
 </template>
 

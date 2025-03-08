@@ -61,19 +61,15 @@ body {
 #app {
     width: 100vw;
     height: 100vh;
-    gap: 6em;
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-#foreground {
-    width: 60%;
+#vue {
+    gap: 6em;
     height: 150vw;
-    background-color: cadetblue;
     margin: auto;
-    margin-top: 10em;
-    margin-bottom: 10em;
 }
 
 h1,
