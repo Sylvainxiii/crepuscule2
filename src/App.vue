@@ -9,7 +9,7 @@
 <template>
     <Background />
     <Navbar />
-    <div id = 'vue'>
+    <div id = 'vue' class="flex-column center">
       <Accueil />
     </div>
     <FooterPc />

@@ -1,0 +1,17 @@
+.bouton {
+    padding: 1.2em 1.5em;
+    text-transform: uppercase;
+    overflow: hidden;
+    border: var(--purple-box-border);
+    box-shadow: var(--purple-box-shadow);
+    margin: 2em 0 0 0;
+    font-size: 0.8em;
+}
+
+.bouton:hover {
+    background: rgba(var(--purple-shadow-color), 1);
+    color: var(--main-font-color);
+    border-radius: 0.25em;
+    font-weight: var(--title-font-wheight);
+    animation: flicker var(--animation-parametre), change-border-color var(--animation-parametre);
+}
