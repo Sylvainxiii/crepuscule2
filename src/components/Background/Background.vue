@@ -5,12 +5,11 @@
 
     const background = ref(null)
     let lastScrollY = 0
-    let app = null
+    let foreground = null
 
     // Fonction qui gère l'effet parallaxe
 const handleScroll = () => {
-    //const app = document.querySelector('.app')
-    const scrollY = app.scrollTop
+    const scrollY = foreground.scrollTop
     const windowHeight = window.innerHeight
     
     if (background.value) {
@@ -39,20 +38,20 @@ const handleScroll = () => {
 }
 
 // Ajouter l'écouteur d'événement au montage du composant
-onMounted(() => {
-    app = document.querySelector('#app')
-    if (app) {
-        app.addEventListener('scroll', handleScroll)
-    } 
-})
+// onMounted(() => {
+//     foreground = document.querySelector('#foreground')
+//     if (foreground) {
+//         foreground.addEventListener('scroll', handleScroll)
+//     } 
+// })
 
 // Nettoyer l'écouteur d'événement au démontage du composant
-onUnmounted(() => {
-    if (app) {
-        app.removeEventListener('scroll', handleScroll)
-        app = null // Libère la référence
-    }
-})
+// onUnmounted(() => {
+//     if (foreground) {
+//         foreground.removeEventListener('scroll', handleScroll)
+//         foreground = null // Libère la référence
+//     }
+// })
 </script>
 
 <template>

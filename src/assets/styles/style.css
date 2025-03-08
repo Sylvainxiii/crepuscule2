@@ -67,6 +67,15 @@ body {
     overflow-y: auto;
 }
 
+#foreground {
+    width: 60%;
+    height: 150vw;
+    background-color: cadetblue;
+    margin: auto;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
 h1,
 h2,
 h3 {
