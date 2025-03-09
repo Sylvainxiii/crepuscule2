@@ -1,0 +1,73 @@
+#accueil-billetterie {
+    width: 80%;
+    gap: 1em
+}
+
+#grille-billetterie {
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    border-radius: 1em;
+    overflow: hidden;
+    border: var(--purple-box-border);
+    box-shadow: var(--purple-box-shadow);
+    animation: flicker var(--animation-parametre), change-border-color var(--animation-parametre);
+}
+
+#cellule-1-billetterie,
+#cellule-2-billetterie,
+#cellule-3-billetterie {
+    text-align: center;
+    align-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 3vh;
+    font-weight: var(--title-font-wheight);
+    box-shadow: var(--purple-box-shadow);
+    animation: flicker var(--animation-parametre), change-border-color var(--animation-parametre);
+}
+
+#cellule-1-billetterie {
+    grid-area: 1 / 1 / 2 / 3;
+    z-index: 2;
+    border-bottom: var(--purple-box-border);
+}
+
+#cellule-2-billetterie {
+    grid-area: 2 / 1 / 3 / 2;
+    z-index: 1;
+    border-right: var(--purple-box-border);
+}
+
+#cellule-3-billetterie {
+    grid-area: 2 / 2 / 3 / 3;
+    font-size: 2.5em;
+}
+
+@keyframes flicker {
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        box-shadow: var(--purple-box-shadow);
+
+    }
+
+    20%,
+    24%,
+    55% {
+        box-shadow: none;
+    }
+}
+
+@media (width >=810px) {
+    #accueil-billetterie {
+        width: 50%;
+        gap: 2em;
+    }
+}
