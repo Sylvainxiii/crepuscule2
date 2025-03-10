@@ -3,7 +3,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    width: 300vw;
+    width: 400vw;
     transform: translateX(-50%);
 
     img {
@@ -16,14 +16,14 @@
 
 @media (width >=810px) {
     .background {
-        width: 170vw;
+        width: 350vw;
         /* Tablet */
     }
 }
 
 @media (width > 1232px) {
     .background {
-        width: 150vw;
+        width: 200vw;
         /* Desktop */
     }
 }

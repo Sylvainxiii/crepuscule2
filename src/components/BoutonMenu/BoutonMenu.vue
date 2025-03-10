@@ -1,5 +1,5 @@
 <script setup>
-    import { ref, defineProps, watch, onMounted } from 'vue'
+    import { ref} from 'vue'
     import './BoutonMenu.css'
 
     const props = defineProps({
