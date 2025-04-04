@@ -1,6 +1,10 @@
 <script setup>
     import './AccueilContainer.css'
-
+    defineProps({
+        id: String,
+        titre: String,
+        classes: String,
+    });
 </script>
 
 <template>.

@@ -10,8 +10,8 @@
     const sections = Object.keys(page)
         .filter(key => key !== "titreh1")
         .reduce((obj, key) => {
-        obj[key] = page[key];
-        return obj;
+            obj[key] = page[key];
+            return obj;
         }, {});
 </script>
 
